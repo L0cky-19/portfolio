@@ -23,7 +23,7 @@
   "schoolProjects3": [
     {
       "name": "Base de données",
-      "date": "Mai 2023",
+      "date": "Mai 2024",
       "description": "<b>Création d'une base de données en SQL et PHP.</b>",
       "details": "Lors de notre 2<sup>nd</sup> semestre à CESI, nous avons été chargés de concevoir une base de données pour une agence fictive, destinée à stocker et interroger des données publiques sur la qualité de l'air dans les villes françaises. <br><br> Nous avions 1 mois pour répondre à cette demande et pour préparer une présentation face à notre client. <br> <br> <b>Vous trouverez ci-dessous le fichier contenant la base de données et un rapport écrit.</b>",
       "télécharger": "/BDD.zip"
