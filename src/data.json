@@ -1,0 +1,69 @@
+{
+  "schoolProjects1": [
+    {
+      "name": "Conway's Game Of Life",
+      "date": "Décembre 2024",
+      "description": "<b>Codage du Jeu de la vie du mathématicien John Conway en C++.</b>",
+      "details": "Dans le cadre de notre second projet du troisième semestre à CESI, nous avons été chargés de développer le Jeu de la Vie de John Conway en utilisant la programmation orientée objet en C++. <br><br> Nous disposions de deux semaines pour réaliser le projet et préparer un exposé oral de 20 minutes. <br><br> <b>Vous trouverez ci-dessous la documentation ainsi que le lien vers le repository GitHub du jeu.</b>",
+      "documentation": "https://mr22206.github.io/Poo_Jeu_de_la_vie/",
+      "Github": "https://github.com/L0cky-19/Game-Of-Life"
+    }
+  ],
+  "schoolProjects2": [
+    {
+      "name": "WorldWide Weather Watcher",
+      "date": "Novembre 2024",
+      "description": "<b>Création d'une station météo physique codée sur un Arduino.</b>",
+      "details": "Lors de notre 2<sup>nde</sup> rentrée à CESI, notre premier projet de groupe consistait à concevoir une station météo complète à l'aide d'un Arduino Uno. <br><br> Nous disposions de deux semaines pour réaliser ce projet et nous préparer à le présenter devant un jury représentant le client de cette station météo. <br><br> <b>Vous trouverez ci-dessous la documentation ainsi que le lien vers le repository GitHub du projet.</b>",
+      "documentation": "https://azukas-organization.gitbook.io/3w",
+      "Github": "https://github.com/HunterFuzzo/3w-project"
+       
+    }
+  ],  
+  "schoolProjects3": [
+    {
+      "name": "Base de données",
+      "date": "Mai 2023",
+      "description": "<b>Création d'une base de données en SQL et PHP.</b>",
+      "details": "Lors de notre 2<sup>nd</sup> semestre à CESI, nous avons été chargés de concevoir une base de données pour une agence fictive, destinée à stocker et interroger des données publiques sur la qualité de l'air dans les villes françaises. <br><br> Nous avions 1 mois pour répondre à cette demande et pour préparer une présentation face à notre client. <br> <br> <b>Vous trouverez ci-dessous le fichier contenant la base de données et un rapport écrit.</b>",
+      "télécharger": "/BDD.zip"
+    }
+  ],
+  "schoolProjects4": [
+    {
+      "name": "Transfert d'ondes",
+      "date": "Décembre 2023",
+      "description": "<b>Création d'un système d'envoi et de réception d'un message crypté en Python.</b>",
+      "details": "Lors de notre 1<sup>er</sup> semestre à CESI, nous avons programmé en Python deux fichiers permettant de coder et de décoder des messages textuels ou vocaux. <br><br>Ce projet propose une implémentation complète d'un système de communication utilisant la modulation FSK, avec vérification CRC et encodage Manchester. <br><br>Il illustre des concepts fondamentaux des communications numériques tout en offrant une application pratique et concrète. <br><br><b>Vous trouverez ci-dessous les scripts Python ainsi qu'un fichier README détaillant leur fonctionnement.</b>",
+      "télécharger": "/Ondes.zip"
+    }
+  ],
+
+
+
+  "extraProjects1": [
+    {
+      "name": "NoFinishLine Monaco",
+      "date": "Annuelle",
+      "description": "<b>Participation annuelle à la No Finish Line de Monaco.</b>",
+      "details": "Depuis mon plus jeune âge, je participe chaque année à la No Finish Line de Monaco. <br><br> Cet événement sportif, d'une durée d'une semaine, est organisé dans un but caritatif :<br>Pour chaque kilomètre parcouru, 1€ est reversé à des projets en faveur des enfants. <br><br> Au cours des dix dernières années, j'ai totalisé <b>200 kilomètres parcourus</b>, contribuant ainsi activement à cette belle initiative. <br><br> La No Finish Line incarne pour moi bien plus qu'un simple défi sportif :<br> C'est une opportunité de me mobiliser pour une cause essentielle tout en partageant des moments uniques avec une communauté solidaire. <br> <br> <b>Vous trouverez ci-dessous un récapitulatif de mes résultats.</b>",
+      "télécharger2": "/NFL.pdf"
+    }
+  ],
+
+  "extraProjects2": [
+    {
+      "name": "Sports",
+      "description": "<br><b>Mes activités sportives.</b> <br> <br>",
+      "details": "Depuis mon plus jeune âge, j’ai pratiqué une grande diversité de sports, allant des sports de combat, de raquette, et de balle, aux activités de montagne.<br>Cette variété m’a permis de développer un immense plaisir pour l’effort physique et le dépassement de soi, qui reste une constante dans ma vie.<br><br>Actuellement, ma passion se porte sur l’escalade en salle, une discipline que je pratique environ trois fois par semaine, généralement après mes cours.<br>Ce sport représente pour moi bien plus qu’une activité physique :<br>C’est un moyen de me vider l’esprit tout en renforçant ma concentration et ma persévérance.<br>Je m’entraîne principalement à la salle Arkoze, située au Stade Niçois, et je profite souvent de cette occasion pour me rendre sur place en courant, parcourant ainsi 3,5 km avant chaque séance.<br><br>Par ailleurs, je reste toujours ouvert aux opportunités de découvrir ou de pratiquer d’autres sports avec mes amis, ce qui reflète ma curiosité et ma volonté d’élargir mes horizons sportifs.<br><br> Lorsque l’hiver arrive, je saisis chaque occasion pour partir au ski, que ce soit en famille ou entre amis.<br>Le ski est, sans aucun doute, mon sport favori, une passion dont je ne me lasse jamais.<br>Ce sport me permet de combiner mon amour pour la montagne avec le plaisir de repousser mes limites.<br>J’apprécie particulièrement l’exploration de nouvelles pistes et zones, où chaque descente est une opportunité de mêler vitesse, technicité et adrénaline.<br>Ces moments sont aussi pour moi l’occasion de profiter de paysages grandioses tout en partageant des souvenirs inoubliables avec mes proches."
+    }
+  ],
+
+  "extraProjects3": [
+    {
+      "name": "Moto",
+      "description": "<br><b>Plus qu'un moyen de transport.</b> <br> <br>",
+      "details": "Depuis toujours, je suis passionné par les sports automobiles, la vitesse et l’adrénaline qu’ils procurent.<br><br>À 19 ans, j’ai découvert l’univers des motos, et ce fut une révélation.<br>Immédiatement séduit, j’ai entrepris de passer mon permis A2.<br><br>En mars 2024, j’ai réalisé un de mes rêves en faisant l’acquisition de ma première moto : une Yamaha R7.<br><br>Depuis, cette moto occupe une place centrale dans ma vie.<br>Elle est bien plus qu’un simple moyen de transport :<br>Elle m’offre la liberté d’explorer de nouveaux paysages, de voyager et de m’évader, tout en vivant des émotions fortes.<br>Que ce soit pour mes trajets du quotidien ou pour des balades plus longues, elle incarne pour moi un mélange parfait de fonctionnalité et de plaisir.<br><br>Elle m’a appris à allier responsabilité, maîtrise de soi et passion.<br>Grâce à elle, je continue à cultiver mon goût pour l’aventure et ma soif de découverte."
+    }
+  ]
+}
