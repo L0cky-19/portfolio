@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Cercle de fond -->
+  <circle cx="200" cy="200" r="200" fill="#0A192F"/>
+  
+  <!-- Cercle intérieur -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="#1E3A8A" stroke-width="2"/>
+  
+  <!-- Émetteur (gauche) -->
+  <g transform="translate(100,200)">
+    <rect x="-15" y="-25" width="30" height="50" fill="#3B82F6" rx="5"/>
+    <path d="M20,0 Q40,-10 60,0 Q40,10 20,0" fill="none" stroke="#3B82F6" stroke-width="3">
+      <animate attributeName="d" 
+        values="M20,0 Q40,-10 60,0 Q40,10 20,0;
+                M20,0 Q40,-5 60,0 Q40,5 20,0;
+                M20,0 Q40,-10 60,0 Q40,10 20,0"
+        dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Récepteur (droite) -->
+  <g transform="translate(300,200)">
+    <rect x="-15" y="-25" width="30" height="50" fill="#3B82F6" rx="5"/>
+    <path d="M-20,0 Q-40,-10 -60,0 Q-40,10 -20,0" fill="none" stroke="#3B82F6" stroke-width="3">
+      <animate attributeName="d" 
+        values="M-20,0 Q-40,-10 -60,0 Q-40,10 -20,0;
+                M-20,0 Q-40,-5 -60,0 Q-40,5 -20,0;
+                M-20,0 Q-40,-10 -60,0 Q-40,10 -20,0"
+        dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Ligne de transmission centrale avec données cryptées -->
+  <g>
+    <!-- Flèche vers la droite -->
+    <path d="M140,180 L260,180" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" from="12" to="0" dur="1s" repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Flèche vers la gauche -->
+    <path d="M260,220 L140,220" stroke="#10B981" stroke-width="2" marker-end="url(#arrowhead)" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" from="0" to="12" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Définition de la flèche -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#10B981"/>
+    </marker>
+  </defs>
+  
+  <!-- Symboles de cryptage -->
+  <g transform="translate(200,200)">
+    <text fill="#10B981" font-family="monospace" font-size="12">
+      <tspan x="-30" y="-5">10</tspan>
+      <tspan x="10" y="-5">01</tspan>
+      <tspan x="-30" y="15">01</tspan>
+      <tspan x="10" y="15">10</tspan>
+    </text>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 200 200"
+      to="360 200 200"
+      dur="20s"
+      repeatCount="indefinite"/>
+  </g>
+  
+  <!-- Cercles d'onde extérieurs -->
+  <circle cx="200" cy="200" r="160" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" from="140" to="160" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.6" to="0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="200" cy="200" r="170" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" from="150" to="170" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0.4" to="0.1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
