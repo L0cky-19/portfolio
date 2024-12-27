@@ -75,7 +75,7 @@ const AboutSection = () => {
               <strong>• CCNA</strong> : Introduction to Networks (en cours)
               <br></br>
               <br></br>
-              <strong>• Langage de programmation</strong> : C, C++, Python, OCaml, Javascript, HTML, CSS, HPP, SQL
+              <strong>• Langages de programmation</strong> : C, C++, Python, OCaml, Javascript, HTML, CSS, HPP, SQL
               <br></br>
               <br></br>
               <strong>• Bash & Powershell</strong>
