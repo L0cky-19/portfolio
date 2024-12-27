@@ -47,7 +47,7 @@ const AboutSection = () => {
                 <br></br>
                 <strong>Historique de mes formations :</strong> <br></br>
                 <br></br>
-                <strong>•</strong> 2023 - Actuellement : <a href="https://nice.cesi.fr/" target="_blank" rel="noreferrer"><u>CESI Nice</u></a>, prépa-intégrée en cycle ingénieur, mineure informatique.
+                <strong>•</strong> 2023 - Actuellement : <a href="https://nice.cesi.fr/" target="_blank" rel="noreferrer"><u>CESI Nice</u></a>, prépa-intégrée en cycle ingénieur, spécialisation informatique.
                 <br></br>
                 <br></br>
                 <strong>•</strong> 2022 - 2023 : Centre International de Valbonne, prépa MP2I.
@@ -102,10 +102,10 @@ const AboutSection = () => {
           {expandedSections["competences-linguistiques"] && (
             <div className="about-content">
               <p>
-              <strong>Français :</strong> Langue maternelle .
+              <strong>Français :</strong> Langue maternelle.
               <br></br>
               <br></br>
-              <strong>Anglais :</strong> B2/C1 (Cambridge 2022 : B2) - (TOEIC 2023 : C1).
+              <strong>Anglais :</strong> C1.
               <br></br>
               <br></br>
               <strong>Espagnol :</strong> A2.
