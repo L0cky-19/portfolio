@@ -41,8 +41,7 @@ const AboutSection = () => {
               <p>
                 Passionné par l'informatique et la <b>cybersécurité</b>, je consacre
                 une grande partie de mon temps libre à me perfectionner,
-                notamment en utilisant des plateformes comme <a href = "https://tryhackme.com/" target="_blank" rel="noreferrer"><u>TryHackMe</u> </a> 
-                ou encore <a href = "https://adventofcode.com/2024/about" target="_blank" rel="noreferrer"> <u>l'Advent Of Code</u> </a> 
+                notamment en utilisant des plateformes comme <a href = "https://tryhackme.com/" target="_blank" rel="noreferrer"><u>TryHackMe</u> </a>
                 pour développer mes compétences techniques. <br></br>
                 <br></br>
                 <strong>Historique de mes formations :</strong> <br></br>
