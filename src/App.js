@@ -3,6 +3,7 @@ import "./App.css";
 import ProjectList from "./components/ProjectList";
 import data from "./data.json";
 import AboutSection from "./components/AboutSection";
+import FunkyTown from "./Images/FunkyTown.png";
 import GameOfLife from "./Images/GameOfLife.png";
 import Weather3W from "./Images/3W.png";
 import BDD from "./Images/BDD.png";
@@ -36,6 +37,14 @@ function App() {
       <section id="projects">
         <h2 class="h2_2">Projets</h2>
         <h3>Projets Scolaires</h3>
+        <div className="project-container">
+        <img src={FunkyTown} alt="FunkyTown" style={{ width: "222px", height: "222px" }} />
+          <ProjectList
+            projects={data.schoolProjects5}
+            selectedProject={selectedProject}
+            onSelectProject={setSelectedProject}
+          />
+        </div>
         <div className="project-container">
         <img src={GameOfLife} alt="Jeu de la vie Jonh Conway" style={{ width: "222px", height: "222px" }} />
           <ProjectList

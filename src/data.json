@@ -38,6 +38,16 @@
       "télécharger": "/Ondes.zip"
     }
   ],
+  "schoolProjects5": [
+    {
+      "name": "FunkyTown",
+      "date": "Février 2025",
+      "description": "<b>Création d'une maquette sur Cisco Packet Tracer de plusieurs réseaux complexes.</b>",
+      "details": "Dans le cadre de notre troisiéme projet du troisième semestre à CESI, nous avons été chargés par équipe de 2, de créer à partir d'un cahier des charges une maquette sur Cisco Packet Tracer regroupant plusieurs réseaux complexes. <br><br> Nous disposions d'un mois pour réaliser le projet et préparer un exposé oral de 20 minutes. <br><br> <b>Vous trouverez ci-dessous la documentation ainsi que la maquette final de notre projet.</b>",
+      "documentation": "https://l0cky19s-organization.gitbook.io/funkytown",
+      "télécharger": "/FunkyTown.zip"
+    }
+  ],
 
 
 
